@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116878481BF5A6F60007784F /* libDBChooser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 116878461BF5A6E20007784F /* libDBChooser.a */; };
+		1173C3161BF5A2A7000FACE3 /* RNDropboxChooser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1173C3151BF5A2A7000FACE3 /* RNDropboxChooser.h */; };
+		1173C3181BF5A2A7000FACE3 /* RNDropboxChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1173C3171BF5A2A7000FACE3 /* RNDropboxChooser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116878451BF5A6E20007784F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116878411BF5A6E20007784F /* DBChooser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B861A4C17716C3200CCB299;
+			remoteInfo = DBChooser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1173C3101BF5A2A7000FACE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1173C3161BF5A2A7000FACE3 /* RNDropboxChooser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		116878411BF5A6E20007784F /* DBChooser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DBChooser.xcodeproj; path = "Libraries/dropbox-ios-dropins-sdk-1.2.1/DBChooser.xcodeproj"; sourceTree = "<group>"; };
+		1173C3121BF5A2A7000FACE3 /* libRNDropboxChooser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDropboxChooser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1173C3151BF5A2A7000FACE3 /* RNDropboxChooser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDropboxChooser.h; sourceTree = "<group>"; };
+		1173C3171BF5A2A7000FACE3 /* RNDropboxChooser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDropboxChooser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1173C30F1BF5A2A7000FACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116878481BF5A6F60007784F /* libDBChooser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116878421BF5A6E20007784F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116878461BF5A6E20007784F /* libDBChooser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116878471BF5A6E90007784F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				116878411BF5A6E20007784F /* DBChooser.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		1173C3091BF5A2A7000FACE3 = {
+			isa = PBXGroup;
+			children = (
+				1173C3141BF5A2A7000FACE3 /* RNDropboxChooser */,
+				1173C3131BF5A2A7000FACE3 /* Products */,
+				116878471BF5A6E90007784F /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+		1173C3131BF5A2A7000FACE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1173C3121BF5A2A7000FACE3 /* libRNDropboxChooser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1173C3141BF5A2A7000FACE3 /* RNDropboxChooser */ = {
+			isa = PBXGroup;
+			children = (
+				1173C3151BF5A2A7000FACE3 /* RNDropboxChooser.h */,
+				1173C3171BF5A2A7000FACE3 /* RNDropboxChooser.m */,
+			);
+			path = RNDropboxChooser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1173C3111BF5A2A7000FACE3 /* RNDropboxChooser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1173C31B1BF5A2A7000FACE3 /* Build configuration list for PBXNativeTarget "RNDropboxChooser" */;
+			buildPhases = (
+				1173C30E1BF5A2A7000FACE3 /* Sources */,
+				1173C30F1BF5A2A7000FACE3 /* Frameworks */,
+				1173C3101BF5A2A7000FACE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNDropboxChooser;
+			productName = RNDropboxChooser;
+			productReference = 1173C3121BF5A2A7000FACE3 /* libRNDropboxChooser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1173C30A1BF5A2A7000FACE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jason Brown";
+				TargetAttributes = {
+					1173C3111BF5A2A7000FACE3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 1173C30D1BF5A2A7000FACE3 /* Build configuration list for PBXProject "RNDropboxChooser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1173C3091BF5A2A7000FACE3;
+			productRefGroup = 1173C3131BF5A2A7000FACE3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 116878421BF5A6E20007784F /* Products */;
+					ProjectRef = 116878411BF5A6E20007784F /* DBChooser.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1173C3111BF5A2A7000FACE3 /* RNDropboxChooser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		116878461BF5A6E20007784F /* libDBChooser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDBChooser.a;
+			remoteRef = 116878451BF5A6E20007784F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1173C30E1BF5A2A7000FACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1173C3181BF5A2A7000FACE3 /* RNDropboxChooser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1173C3191BF5A2A7000FACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1173C31A1BF5A2A7000FACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1173C31C1BF5A2A7000FACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include\n/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/Libraries/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1173C31D1BF5A2A7000FACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include\n/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/Libraries/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1173C30D1BF5A2A7000FACE3 /* Build configuration list for PBXProject "RNDropboxChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1173C3191BF5A2A7000FACE3 /* Debug */,
+				1173C31A1BF5A2A7000FACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1173C31B1BF5A2A7000FACE3 /* Build configuration list for PBXNativeTarget "RNDropboxChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1173C31C1BF5A2A7000FACE3 /* Debug */,
+				1173C31D1BF5A2A7000FACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1173C30A1BF5A2A7000FACE3 /* Project object */;
+}

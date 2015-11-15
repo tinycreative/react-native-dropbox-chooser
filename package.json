@@ -1,0 +1,17 @@
+{
+  "name": "react-native-dropbox-chooser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "react-native": "^0.15.0-rc"
+  },
+  "dependencies": {
+    "qs": "^6.0.0"
+  }
+}
