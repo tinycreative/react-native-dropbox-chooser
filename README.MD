@@ -25,6 +25,8 @@ You'll see a section where it says "App key" and a series of numbers/letters. We
 
 ## Setup
 
+First off add it to your project. How to link native modules can be found here. [http://facebook.github.io/react-native/docs/linking-libraries-ios.html#content](http://facebook.github.io/react-native/docs/linking-libraries-ios.html#content). 
+
 This will use LinkingIOS so we'll need to add this code to your `AppDelegate.m`
 
 At the top of the file you will need to add `#import "RCTLinkingManager.h"`
