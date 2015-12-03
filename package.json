@@ -1,14 +1,27 @@
 {
   "name": "react-native-dropbox-chooser",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Native dropbox chooser module",
   "main": "DropboxChooser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Asa Miller",
   "license": "MIT",
   "dependencies": {
     "qs": "^6.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinycreative/react-native-dropbox-chooser.git"
+  },
+  "keywords": [
+    "react-native",
+    "dropbox",
+    "chooser"
+  ],
+  "bugs": {
+    "url": "https://github.com/tinycreative/react-native-dropbox-chooser/issues"
+  },
+  "homepage": "https://github.com/tinycreative/react-native-dropbox-chooser#readme"
 }
