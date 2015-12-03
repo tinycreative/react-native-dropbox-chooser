@@ -8,6 +8,10 @@ For more details check out [https://www.dropbox.com/developers/chooser#ios](http
 
 This will only work on Device. This will open up a window prompting you to install the Dropbox app on the Simulator.
 
+## Install
+
+`npm install react-native-dropbox-chooser --save`
+
 ## Sign up 
 
 You'll need to sign up and get an app key from Dropbox.
