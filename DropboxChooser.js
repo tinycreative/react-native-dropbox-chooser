@@ -1,10 +1,10 @@
 'use strict';
 
-let LinkingIOS = require('LinkingIOS');
 let qs = require('qs');
 let React = require('react-native');
 let {
-  NativeModules
+  NativeModules,
+  LinkingIOS,
 } = React;
 
 
