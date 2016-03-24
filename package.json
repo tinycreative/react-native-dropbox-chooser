@@ -1,6 +1,6 @@
 {
   "name": "react-native-dropbox-chooser",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "React Native dropbox chooser module",
   "main": "DropboxChooser.js",
   "scripts": {
