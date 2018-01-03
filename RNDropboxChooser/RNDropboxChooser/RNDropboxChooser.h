@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RCTBridgeModule.h"
-#import "RCTUtils.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTUtils.h>
 
 @interface DropboxChooser : NSObject <RCTBridgeModule>
 @end
