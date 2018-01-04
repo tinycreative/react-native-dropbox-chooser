@@ -7,8 +7,8 @@
 //
 
 #import "RNDropboxChooser.h"
-#import "RCTBridge.h"
-#import "RCTUtils.h"
+#import <React/RCTBridge.h>
+#import <React/RCTUtils.h>
 #import <DBChooser/DBChooser.h>
 
 @implementation DropboxChooser
